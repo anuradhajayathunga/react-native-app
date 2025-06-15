@@ -1,4 +1,4 @@
-# 👋 Welcome to Your Expo App
+# 👋 Welcome to My Expo App
 
 <div align="center">
 
