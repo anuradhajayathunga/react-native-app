@@ -1,4 +1,4 @@
-# 👋 Welcome to My Expo App
+# 👋Hello world, Welcome to My Expo App
 
 <div align="center">
 
@@ -28,7 +28,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 ### Installation & Setup
 
 1. **Install dependencies**
-   
+
    <div style="background: #1e1e1e; border-radius: 12px; padding: 16px; margin: 16px 0; position: relative; font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;">
      <div style="display: flex; align-items: center; margin-bottom: 12px;">
        <div style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57; margin-right: 8px;"></div>
@@ -39,7 +39,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    </div>
 
 2. **Start the development server**
-   
+
    <div style="background: #1e1e1e; border-radius: 12px; padding: 16px; margin: 16px 0; position: relative; font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;">
      <div style="display: flex; align-items: center; margin-bottom: 12px;">
        <div style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57; margin-right: 8px;"></div>
@@ -51,12 +51,12 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 3. **Choose your development environment:**
 
-   | Platform | Command | Description |
-   |----------|---------|-------------|
-   | 🔧 **Development Build** | `expo run:ios` / `expo run:android` | Full native runtime |
-   | 🤖 **Android Emulator** | Press `a` in terminal | Android Studio emulator |
-   | 📱 **iOS Simulator** | Press `i` in terminal | Xcode simulator |
-   | 🎯 **Expo Go** | Scan QR code | Quick prototyping sandbox |
+   | Platform                 | Command                             | Description               |
+   | ------------------------ | ----------------------------------- | ------------------------- |
+   | 🔧 **Development Build** | `expo run:ios` / `expo run:android` | Full native runtime       |
+   | 🤖 **Android Emulator**  | Press `a` in terminal               | Android Studio emulator   |
+   | 📱 **iOS Simulator**     | Press `i` in terminal               | Xcode simulator           |
+   | 🎯 **Expo Go**           | Scan QR code                        | Quick prototyping sandbox |
 
 ---
 
@@ -133,6 +133,7 @@ When you're ready to start building your own app:
 </div>
 
 This command will:
+
 - 📦 Move the starter code to the **`app-example`** directory
 - 🆕 Create a blank **`app`** directory for your project
 - 🧹 Clean up example files and configurations
@@ -142,12 +143,15 @@ This command will:
 ## 🎨 Customization
 
 ### Theme & Styling
+
 - Modify `constants/Colors.ts` for your color palette
 - Update `app/_layout.tsx` for global app configuration
 - Customize components in the `components/` directory
 
 ### App Configuration
+
 Edit `app.json` to configure:
+
 - App name and description
 - Icons and splash screens
 - Platform-specific settings
@@ -157,15 +161,15 @@ Edit `app.json` to configure:
 
 ## 🛠️ Available Scripts
 
-| Script | Command | Description |
-|--------|---------|-------------|
-| **Start** | `npm start` | Start the development server |
-| **Android** | `npm run android` | Run on Android device/emulator |
-| **iOS** | `npm run ios` | Run on iOS device/simulator |
-| **Web** | `npm run web` | Run in web browser |
-| **Reset** | `npm run reset-project` | Reset to blank project |
-| **Lint** | `npm run lint` | Run ESLint |
-| **Type Check** | `npm run type-check` | Run TypeScript compiler |
+| Script         | Command                 | Description                    |
+| -------------- | ----------------------- | ------------------------------ |
+| **Start**      | `npm start`             | Start the development server   |
+| **Android**    | `npm run android`       | Run on Android device/emulator |
+| **iOS**        | `npm run ios`           | Run on iOS device/simulator    |
+| **Web**        | `npm run web`           | Run in web browser             |
+| **Reset**      | `npm run reset-project` | Reset to blank project         |
+| **Lint**       | `npm run lint`          | Run ESLint                     |
+| **Type Check** | `npm run type-check`    | Run TypeScript compiler        |
 
 ---
 
@@ -174,16 +178,19 @@ Edit `app.json` to configure:
 <div align="center">
 
 ### 📖 Documentation
+
 [![Expo Docs](https://img.shields.io/badge/📚_Expo_Docs-000020?style=for-the-badge&logo=expo)](https://docs.expo.dev/)
 [![Guides](https://img.shields.io/badge/📖_Guides-4285F4?style=for-the-badge)](https://docs.expo.dev/guides)
 
 ### 🎓 Tutorials
+
 [![Learn Expo](https://img.shields.io/badge/🎓_Learn_Expo-FF6B6B?style=for-the-badge)](https://docs.expo.dev/tutorial/introduction/)
 [![React Native](https://img.shields.io/badge/React_Native_Docs-61DAFB?style=for-the-badge&logo=react)](https://reactnative.dev/docs/getting-started)
 
 </div>
 
 **Key Topics to Explore:**
+
 - 🎯 [Expo Router](https://docs.expo.dev/router/introduction/) - Navigation and routing
 - 📱 [Native APIs](https://docs.expo.dev/versions/latest/) - Camera, location, notifications
 - 🎨 [UI Components](https://docs.expo.dev/ui-programming/react-native-styling-buttons/) - Styling and theming
@@ -274,21 +281,25 @@ Join our community of developers creating universal apps!
 <summary><b>📱 Common Issues</b></summary>
 
 ### Metro bundler issues
+
 ```bash
 npx expo start --clear
 ```
 
 ### iOS simulator not working
+
 ```bash
 npx expo run:ios --simulator
 ```
 
 ### Android emulator not detected
+
 ```bash
 npx expo run:android --device
 ```
 
 ### Dependencies conflicts
+
 ```bash
 rm -rf node_modules package-lock.json
 npm install
@@ -308,7 +319,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Happy coding! 🎉**
 
-*Built with ❤️ using [Expo](https://expo.dev) and [React Native](https://reactnative.dev)*
+_Built with ❤️ using [Expo](https://expo.dev) and [React Native](https://reactnative.dev)_
 
 ![Made with Expo](https://img.shields.io/badge/Made%20with-Expo-000020?style=flat&logo=expo)
 ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react)
