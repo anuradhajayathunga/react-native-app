@@ -2,7 +2,8 @@
 
 <div align="center">
 
-![Expo Logo](https://raw.githubusercontent.com/expo/expo/main/.github/expo-logo.png)
+<!-- Replace with your own logo or remove this line -->
+<!-- ![Expo Logo](./assets/images/expo-logo.png) -->
 
 **Build amazing universal apps with React Native**
 
@@ -52,22 +53,22 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 <table>
 <tr>
 <td align="center">
-<img src="https://docs.expo.dev/static/images/logo-dark.png" width="60px" alt="Development Build"/><br/>
+🔧<br/>
 <b>Development Build</b><br/>
 Full native runtime with custom native code support
 </td>
 <td align="center">
-<img src="https://developer.android.com/images/brand/Android_Robot.png" width="60px" alt="Android"/><br/>
+🤖<br/>
 <b>Android Emulator</b><br/>
 Test on Android virtual devices
 </td>
 <td align="center">
-<img src="https://developer.apple.com/assets/elements/icons/xcode-12/xcode-12-96x96_2x.png" width="60px" alt="iOS"/><br/>
+📱<br/>
 <b>iOS Simulator</b><br/>
 Test on iOS virtual devices
 </td>
 <td align="center">
-<img src="https://docs.expo.dev/static/images/expo-go-icon.png" width="60px" alt="Expo Go"/><br/>
+🎯<br/>
 <b>Expo Go</b><br/>
 Quick testing with limited native features
 </td>
