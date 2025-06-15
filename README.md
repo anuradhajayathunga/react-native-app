@@ -28,14 +28,26 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 ### Installation & Setup
 
 1. **Install dependencies**
-   ```bash
-   npm install
-   ```
+   
+   <div style="background: #1e1e1e; border-radius: 12px; padding: 16px; margin: 16px 0; position: relative; font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;">
+     <div style="display: flex; align-items: center; margin-bottom: 12px;">
+       <div style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57; margin-right: 8px;"></div>
+       <div style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e; margin-right: 8px;"></div>
+       <div style="width: 12px; height: 12px; border-radius: 50%; background: #28ca42;"></div>
+     </div>
+     <code style="color: #50fa7b; font-size: 14px;">npm install</code>
+   </div>
 
 2. **Start the development server**
-   ```bash
-   npx expo start
-   ```
+   
+   <div style="background: #1e1e1e; border-radius: 12px; padding: 16px; margin: 16px 0; position: relative; font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;">
+     <div style="display: flex; align-items: center; margin-bottom: 12px;">
+       <div style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57; margin-right: 8px;"></div>
+       <div style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e; margin-right: 8px;"></div>
+       <div style="width: 12px; height: 12px; border-radius: 50%; background: #28ca42;"></div>
+     </div>
+     <code style="color: #50fa7b; font-size: 14px;">npx expo start</code>
+   </div>
 
 3. **Choose your development environment:**
 
@@ -111,9 +123,14 @@ Start developing by editing files in the **`app`** directory. This project uses 
 
 When you're ready to start building your own app:
 
-```bash
-npm run reset-project
-```
+<div style="background: #1e1e1e; border-radius: 12px; padding: 16px; margin: 16px 0; position: relative; font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;">
+  <div style="display: flex; align-items: center; margin-bottom: 12px;">
+    <div style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57; margin-right: 8px;"></div>
+    <div style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e; margin-right: 8px;"></div>
+    <div style="width: 12px; height: 12px; border-radius: 50%; background: #28ca42;"></div>
+  </div>
+  <code style="color: #50fa7b; font-size: 14px;">npm run reset-project</code>
+</div>
 
 This command will:
 - 📦 Move the starter code to the **`app-example`** directory
@@ -222,25 +239,32 @@ Join our community of developers creating universal apps!
 
 ### 📱 App Stores
 
-```bash
-# Build for iOS App Store
-npx eas build --platform ios
-
-# Build for Google Play Store
-npx eas build --platform android
-
-# Build for both platforms
-npx eas build --platform all
-```
+<div style="background: #1e1e1e; border-radius: 12px; padding: 16px; margin: 16px 0; position: relative; font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;">
+  <div style="display: flex; align-items: center; margin-bottom: 12px;">
+    <div style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57; margin-right: 8px;"></div>
+    <div style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e; margin-right: 8px;"></div>
+    <div style="width: 12px; height: 12px; border-radius: 50%; background: #28ca42;"></div>
+  </div>
+  <code style="color: #6272a4; font-size: 14px;"># Build for iOS App Store</code><br/>
+  <code style="color: #50fa7b; font-size: 14px;">npx eas build --platform ios</code><br/><br/>
+  <code style="color: #6272a4; font-size: 14px;"># Build for Google Play Store</code><br/>
+  <code style="color: #50fa7b; font-size: 14px;">npx eas build --platform android</code><br/><br/>
+  <code style="color: #6272a4; font-size: 14px;"># Build for both platforms</code><br/>
+  <code style="color: #50fa7b; font-size: 14px;">npx eas build --platform all</code>
+</div>
 
 ### 🌐 Web Deployment
 
-```bash
-# Export for web
-npx expo export --platform web
-
-# Deploy to Netlify, Vercel, or any static host
-```
+<div style="background: #1e1e1e; border-radius: 12px; padding: 16px; margin: 16px 0; position: relative; font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;">
+  <div style="display: flex; align-items: center; margin-bottom: 12px;">
+    <div style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57; margin-right: 8px;"></div>
+    <div style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e; margin-right: 8px;"></div>
+    <div style="width: 12px; height: 12px; border-radius: 50%; background: #28ca42;"></div>
+  </div>
+  <code style="color: #6272a4; font-size: 14px;"># Export for web</code><br/>
+  <code style="color: #50fa7b; font-size: 14px;">npx expo export --platform web</code><br/><br/>
+  <code style="color: #6272a4; font-size: 14px;"># Deploy to Netlify, Vercel, or any static host</code>
+</div>
 
 ---
 
